@@ -1,10 +1,10 @@
 # Extração de Chuva Diária com GEE e Python
 
-Script em Python para extrair séries temporais de precipitação diária (em mm) para polígonos agrícolas utilizando a API do Google Earth Engine e o produto de satélite CHIRPS.
+Script em Python para extrair séries temporais de precipitação diária (em mm) para polígonos utilizando a API do Google Earth Engine e o produto CHIRPS.
 
 ---
 
-### O que o código faz
+### Aplicação em Python
 
 1. **Inicializa o ambiente:** Conecta e autentica na API do Google Earth Engine utilizando o projeto configurado.
 2. **Define as áreas de interesse:** Cria uma coleção de feições (`ee.FeatureCollection`) contendo as coordenadas geográficas e os metadados de cada propriedade (identificador, cultura, município e estado).
